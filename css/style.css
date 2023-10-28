@@ -118,9 +118,9 @@ header {
     background-repeat: no-repeat;
     text-align: center;
     padding: 70px;
-    
+
     /* background-position: left ; */
-   
+
 }
 
 .banner-text h2 {
@@ -129,7 +129,7 @@ header {
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
-    
+
 
 }
 
@@ -142,7 +142,7 @@ header {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-   
+
 }
 
 /* .banner-text h6 {
@@ -226,3 +226,58 @@ header {
     /* margin-bottom: 50px; */
 
 }
+
+/* gamer section begins */
+
+.gamer {
+    display: flex;
+    margin-top: 55px;
+}
+
+.game-img img {
+    width: 768px;
+    height: 489px;
+    flex-shrink: 0;
+}
+
+.game-img-txt {
+    text-align: end;
+    /* margin-right: 30px; */
+}
+
+.game-img-txt h1 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.game-img-txt .gmr-para {
+    width: 520px;
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.game-img-txt .final-gm-para {
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    /* 187.5% */
+}
+
+.u_nleas {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+}
+/* gamer section ends! */

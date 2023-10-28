@@ -5,15 +5,17 @@
         display: flex;
         align-items: center;
     }
-    .nav-container p{
+
+    .nav-container p {
         flex-direction: column;
         text-align: center;
         font-size: 65px;
     }
+
     .logo-container img {
         margin-left: 10px;
-        
-       
+
+
         max-height: 40px;
         object-fit: cover;
         margin-right: 20px;
@@ -21,7 +23,7 @@
         /* background: #FFF; */
         /* box-shadow: 0px 4px 30px 0px; */
     }
-    
+
     .nav-items-container {
         flex-direction: column;
     }
@@ -36,41 +38,98 @@
         margin-bottom: 22px;
 
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column;
     }
 
-    .banner-text, .right-side img {
+    .banner-text,
+    .right-side img {
         width: 100%
-    
-    
-    
     }
 
     .btn {
-       
+
         margin-bottom: 20px;
         font-size: 10px;
         padding: 11px 30px;
-    
+
     }
+
     .btn-2 {
         margin-bottom: 20px;
         font-size: 10px;
         padding: 11px 30px;
     }
-    
+
     .banner-text h2 {
-       
+
         font-size: 38px;
-   
+
     }
-    
+
     .banner-text h1 {
         text-align: center;
         font-size: 65px;
-        
-       
+
+
     }
+
+
+    /* gamer section begins */
+
+    .gamer {
+        flex-direction: column;
+    }
+
+    .game-img img {
+        width: 468px;
+        height: 389px;
+        flex-shrink: 0;
+    }
+
+    .game-img-txt {
+        text-align: center;
+        /* margin-right: 30px; */
+    }
+
+    .game-img-txt h1 {
+        text-align: center;
+        font-size: 38px;
+        font-weight: 700;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .game-img-txt .gmr-para {
+        width: 520px;
+        color: #534C64;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 400;
+        /* line-height: 30px; */
+        /* 166.667% */
+    }
+
+    .game-img-txt .final-gm-para {
+        color: #534C64;
+        text-align: center;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 45px;
+        /* 187.5% */
+    }
+
+    .u_nleas {
+        color: #534C64;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 45px;
+        
+    }
+
+    /* gamer section ends! */
 
 }
