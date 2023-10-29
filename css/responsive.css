@@ -127,9 +127,331 @@
         font-size: 22px;
         font-weight: 700;
         line-height: 45px;
-        
+
     }
 
     /* gamer section ends! */
+    /* Online Games Funny Videos starts here */
+    .funny_video {
+        flex-direction: column;
+        margin-top: 100px;
+        gap: 23px;
+        justify-content: center;
+    }
+
+
+    .funny_video h1 {
+        color: #0b0223;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+
+    }
+
+    .online-fun-vd {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 28px;
+
+    }
+
+    .funny_video p {
+        color: #534C64;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 30px;
+
+    }
+
+
+
+    .online-game-image {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .rectangle-1 {
+        width: 342px;
+        height: 400px;
+        border: 4px;
+        border-radius: 16px;
+        margin-top: 8px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .rectangle-1 img {
+        width: 300px;
+
+
+    }
+
+    .play-icon img {
+        width: 48px;
+        height: 48px;
+
+    }
+
+    .rectangle-1 p {
+        width: 342px;
+        color: #534C64;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+        margin-bottom: 8px;
+
+
+    }
+
+    .rectangle-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .play-icon {
+        text-align: center;
+
+    }
+
+    .play-icon .img-rect {
+        width: 300px;
+
+    }
+
+    .play-icon p {
+        width: 342px;
+        color: #534C64;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: left;
+
+
+    }
+
+    .play-img .icn-on-img {
+
+        width: 48px;
+        height: 48px;
+
+    }
+
+
+    /* Online Games Funny Videos starts here  */
+    .funny_video {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .funny_video h1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 500;
+
+    }
+
+    /* Play Instantly section starts here */
+    .play_instant {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .play_instant_text {
+        text-align: center;
+    }
+
+    .play_instant_text p {
+        text-align: justify;
+    }
+
+
+    .play_instant_text .anywhere {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60px;
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    .play_instant_text h2 {
+        color: #0B0223;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+    .play_instant_text p {
+        color: #534C64;
+        text-align: right;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .play_instant_img img {
+        width: 590px;
+        /* height: 650px; */
+    }
+
+    .instant_img_next {
+        width: 300px;
+        border-radius: 8px;
+        border: 10px solid #FFF;
+        position: relative;
+        bottom: 250px;
+        right: 70px;
+        background-repeat: no-repeat;
+    }
+
+    .instant_img_next {
+        width: 200px;
+        border-radius: 8px;
+        border: 10px solid #FFF;
+        position: relative;
+        bottom: 80px;
+        right: 90px;
+        background-repeat: no-repeat;
+    }
+
+    /*  Play Instantly section ends here */
+
+    /* "Play Games Online Anywhere, Anytime!" begins here  */
+    .rectangle_6 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .r6_txt {
+        text-align: center;
+    }
+
+    /* "Play Games Online Anywhere, Anytime!" ends here  */
+
+
+
+    /* career begins */
+
+
+    .rectangle_7 {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .pt-1 {
+
+        width: 180px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .career {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .career h4 {
+        width: 426px;
+        color: #FFF;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 60px;
+    }
+
+    .career p {
+        max-width: 400px;
+        height: 280px;
+        color: #FFF;
+        font-size: 15px;
+        font-weight: 180;
+        line-height: 20px;
+        text-align: left;
+
+
+    }
+
+    .c1 img {
+        width: 420px;
+        height: 21px;
+
+    }
+
+    .p2 img {
+        max-width: 450px;
+    }
+
+    .index .list {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+    .li_st {
+        text-align: right;
+    }
+
+    .li_st li {
+        list-style-type: none;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+
+
+
+
+    }
+
+    .p2 img {
+        width: 800px;
+        height: 821px;
+        fill: rgba(255, 255, 255, 0.10);
+    }
+
+    /* career ends */
+
+
+    .m1{
+        /* flex-direction: column; */ 
+        flex-wrap: wrap;
+      }
+      .row2,.row1 {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* footer section starts  */
+.bb_container_1{
+   /* grid-template-columns: repeat(2,1fr); */
+   flex-wrap: wrap;
+   
+}
+.bb_container_3{
+   /* grid-template-columns: repeat(2,1fr); */
+   flex-wrap: wrap;
+   
+}
+.copyright p {
+    
+    text-align: center;
+   
+
 
 }
+ /* footer section ends  */
+
+}
+
